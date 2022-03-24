@@ -11,8 +11,11 @@ export class PokeServiService {
   constructor(public http : HttpClient) { }
 
   // LLama la API
-  getAllPokemon(){
-    return this.http.get(this.api);
+  getAllPokemon(url:string){
+    if(!url || url.trim().length <=0){
+      return this.http.get(this.api);
+    }
+    return this.http.get(url);
   }
 
   getAllInformation(name : string){

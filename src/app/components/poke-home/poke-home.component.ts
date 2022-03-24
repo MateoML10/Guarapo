@@ -19,21 +19,26 @@ export class PokeHomeComponent implements OnInit {
 
   // Ejecuta de primero antes de que cargue el HTML
   ngOnInit(): void {
-  this.apiRest();
+  this.apiRest('');
   }
 
   /*Se realiza la consulta de la API */
-  apiRest(){
-    this.poke.getAllPokemon().subscribe({
+  apiRest(url:string){
+    this.poke.getAllPokemon(url).subscribe({
       next : (res: any) => {
-      this.pokemon = res.results;
+      this.pokemon = this.pokemon.concat(res.results);
+      console.log(`next:${res.next}`);
       // console.log(this.pokemon)
+      if(res.next){
+        this.apiRest(res.next);
+      }
       },
       error : (error) => console.log(error)
     })
   }
 
   apiAbilities(){
+    if(this.pokemon_abi){
     if(this.query!=this.pokemon.name){
       this.poke.getAllInformation(this.query).subscribe({
         next : (info: any)=> {
@@ -43,7 +48,7 @@ export class PokeHomeComponent implements OnInit {
       },
       error : (error)=> console.log(error)
     })
-     
+  }
     }
    
   }
