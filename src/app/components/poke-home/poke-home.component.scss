@@ -1,0 +1,410 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-header {
+  text-align: center;
+}
+
+.container-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  width: 200px;
+}
+
+.h1 {
+  text-align: center;
+}
+.Div2 {
+  position: absolute;
+  left: 34.44%;
+  right: 34.38%;
+  top: 93.65%;
+  bottom: 3.42%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  display: flex;
+  align-items: center;
+
+  color: #414141;
+}
+.card {
+  position: absolute;
+  left: 23.54%;
+  right: 23.33%;
+  top: 13.28%;
+  bottom: 16.5%;
+
+  background: #ffffff;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12),
+    0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.poke {
+  position: absolute;
+  left: 42.15%;
+  right: 42.15%;
+  top: 14.26%;
+  bottom: 80.18%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-transform: capitalize;
+
+  color: #414141;
+}
+
+.group27 {
+  position: absolute;
+  width: 725px;
+  height: 600px;
+  left: 359px;
+  top: 213px;
+}
+
+.group26 {
+  position: absolute;
+  width: 725px;
+  height: 479px;
+  left: 359px;
+  top: 334px;
+}
+
+.text {
+  /* ✏️ Input text */
+
+  position: absolute;
+  height: 24px;
+  left: 16px;
+  right: 272px;
+  top: 16px;
+
+  /* Subtitle 1 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.15px;
+
+  /* 00. On Surface / Medium Emphasis */
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.search {
+  position: absolute;
+  left: 42.32%;
+  right: 58.38%;
+  top: 20.8%;
+  bottom: 75.17%;
+}
+
+.background {
+  position: absolute;
+  width: 1540px;
+  height: 1004px;
+  left: -50px;
+  top: 23px;
+}
+
+.vector1 {
+  /* Vector 1 */
+
+  position: absolute;
+  width: 1540px;
+  height: 821px;
+  left: -50px;
+  top: 203px;
+
+  background: linear-gradient(180deg, #8cf691 0%, #80ef91 100%);
+  box-shadow: 0px -36px 84px rgba(0, 0, 0, 0.25);
+}
+
+.vector2 {
+  /* Vector 2 */
+
+  position: absolute;
+  width: 1441.5px;
+  height: 1004px;
+  left: 1px;
+  top: 23px;
+
+  background: #62e18e;
+}
+
+.image {
+  position: absolute;
+  width: 134px;
+  height: 130px;
+  left: 779px;
+  top: 234px;
+}
+
+.gruop23 {
+  position: absolute;
+  width: 219px;
+  height: 76px;
+  left: 865px;
+  top: 737px;
+}
+
+.about {
+  position: absolute;
+  left: 24.93%;
+  right: 68.75%;
+  top: 51.07%;
+  bottom: 45.41%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #414141;
+}
+
+.ab {
+  position: absolute;
+  left: 24.93%;
+  right: 24.72%;
+  top: 54.79%;
+  bottom: 35.45%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #5d5d5d;
+}
+
+.description {
+  position: absolute;
+  left: 24.93%;
+  right: 24.72%;
+  top: 54.79%;
+  bottom: 35.45%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #5d5d5d;
+}
+
+.type {
+  position: absolute;
+  left: 24.93%;
+  right: 68.03%;
+  top: 68.46%;
+  bottom: 28.03%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #414141;
+}
+
+.types {
+  position: absolute;
+  left: 24.93%;
+  right: 63.54%;
+  top: 72.17%;
+  bottom: 25.39%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  color: #5d5d5d;
+}
+
+.h5 {
+  position: absolute;
+  left: 60.07%;
+  right: 33.07%;
+  top: 68.46%;
+  bottom: 28.03%;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  color: #414141;
+}
+
+.h3_1 {
+  position: absolute;
+  left: 60.07%;
+  right: 36.29%;
+  top: 71.97%;
+  bottom: 26.17%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #5d5d5d;
+}
+
+.h3_2 {
+  position: absolute;
+  left: 71.15%;
+  right: 24.72%;
+  top: 71.97%;
+  bottom: 26.17%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #5d5d5d;
+}
+
+.hp {
+  position: absolute;
+  left: 60.07%;
+  right: 36.29%;
+  top: 73.83%;
+  bottom: 24.32%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #5d5d5d;
+}
+
+.hpValue {
+  position: absolute;
+  left: 71.15%;
+  right: 24.72%;
+  top: 73.83%;
+  bottom: 24.32%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #5d5d5d;
+}
+
+.attack {
+  position: absolute;
+  left: 60.07%;
+  right: 36.29%;
+  top: 75.68%;
+  bottom: 22.46%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #5d5d5d;
+}
+
+.attackValue {
+  position: absolute;
+  left: 71.15%;
+  right: 24.72%;
+  top: 75.68%;
+  bottom: 22.46%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #5d5d5d;
+}
+
+.defense {
+  position: absolute;
+  left: 60.07%;
+  right: 34.72%;
+  top: 77.54%;
+  bottom: 20.61%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #5d5d5d;
+}
+
+.defenseValue {
+  position: absolute;
+  left: 71.15%;
+  right: 24.72%;
+  top: 77.54%;
+  bottom: 20.61%;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #5d5d5d;
+}

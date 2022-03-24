@@ -1,0 +1,79 @@
+<div class="card"></div>
+<div class="">
+  <div class="poke">
+    <h3>PokeSearch</h3>
+  </div>
+</div>
+<div class="group27">
+  <div class="group26"></div>
+</div>
+<div class="background"></div>
+<input
+  type="text"
+  value="bulbasaur"
+  class="search"
+  placeholder="Search"
+  #name
+  [(ngModel)]="query"
+  (ngModelChange)="apiAbilities()"
+
+/>
+<div class="contents">
+  <ul *ngFor="let poke of pokemon">
+    <td *ngIf="query === poke.name">
+      <span>
+        <img
+          src="{{ pokemon_abi.sprites?.other?.dream_world?.front_default }}"
+          class="image"
+          width="100px"
+          height="120px"
+        />
+        
+        <h5 class="about">About</h5>
+        <ul class="ab">{{pokemon_about.effect_entries[1].effect}}  
+        </ul>
+        <h5 class="type">Types</h5>
+        <ul class="types">
+          {{
+            pokemon_abi.types[0].type.name
+          }},{{
+            pokemon_abi.types[1].type.name
+          }}
+        </ul>
+        <h5 class="h5">Stats</h5>
+        <h3 class="h3_1">stats</h3>
+        <h3 class="h3_2">value</h3>
+        <ul class="hp">
+          hp
+        </ul>
+        <ul class="hpValue">
+          {{
+            pokemon_abi.stats[0].base_stat
+          }}
+        </ul>
+        <ul class="attack">
+          attack
+        </ul>
+        <ul class="attackValue">
+          {{
+            pokemon_abi.stats[1].base_stat
+          }}
+        </ul>
+        <ul class="defense">
+          defense
+        </ul>
+        <ul class="defenseValue">
+          {{
+            pokemon_abi.stats[2].base_stat
+          }}
+        </ul>
+      </span>
+    </td>
+  </ul>
+
+</div>
+<!-- <div>About</div>
+  <div>Type</div> -->
+<div class="Div2">
+  <h3>Copyright © 2021, Guarapo Labs | All rights reserved.</h3>
+</div>
